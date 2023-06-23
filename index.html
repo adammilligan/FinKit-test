@@ -5,14 +5,124 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="./assets/styles/reset.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="shortcut icon" href="./assets/images/Favicon.png">
     <title>Fin Kit</title>
 </head>
 <body>
     <header>
-        Hello
+        <div class="wrapper header_wrapper">
+            <nav class="lang_nav">
+                <button class="header_lang header_lang-active">Ru</button>
+                <button class="header_lang header_lang-disable">En</button>
+            </nav>
+            <div class="header_content">
+                <article class="header_content_about">
+                    <div class="header_content_logo">
+                        <h1 class="logo_word logo_word_fin">Fin</h1>
+                        <h1 class="logo_word logo_word_kit">Kit</h1>
+                    </div>
+                    <div class="header_content_description">Гибкая мобильная платформа <br>
+                        для быстрой реализации <br>
+                        инвестиционных сервисов. </div>
+                    <a href="" class="order header_order">Заказать демо</a>
+                </article>
+                <article class="header_content_image">
+                    <img class="hand_img" src="./assets/images/hand.png" alt="hand.png">
+                </article>
+            </div>
+        </div>
     </header>
+    <section class="advantages">
+        <div class="wrapper blocks_wrapper">
+            <div class="header_blocks_items">
+                <div class="header_block">
+                    <p>Удобный пользовательский интерфейс</p>
+                    <div>
+                        <img src="./assets/images/inter.png" alt="inter.png">
+                    </div>
+                </div>
+                <div class="header_block">
+                    <p>Панель администратора для ведения учета</p>
+                    <div>
+                        <img src="./assets/images/Activity.png" alt="Activity.png">
+                    </div>
+                </div>
+                <div class="header_block">
+                    <p>Простая и быстрая интеграция</p>
+                    <div>
+                        <img src="./assets/images/Filter.png" alt="Filter.png">
+                    </div>
+                </div>
+                <div class="header_block">
+                    <p>Гибкая масштабируемая система</p>
+                    <div>
+                        <img src="./assets/images/Setting.png" alt="Setting.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our_products">
+        <div class="wrapper products_wrapper">
+           <h2 class="for_header_text for_header_text_investors">Наши <a href="" class="for_header_text for_header_text_link">ключевые продукты</a> <br> для инвестиций</h2>
+           <article class="application_examples">
+               <div class="example_strategies example">
+                    <div class="example_text">
+                        <h3 class="example_header">Платформа для автоследования</h3>
+                        <p class="example_description">Копирование стратегий <br>в автономном режиме</p>
+                    </div>
+                   <div class="example_image">
+                       <img class="example_img" src="./assets/images/strategies.png" alt="strategies.png" width="">
+                   </div>
+               </div>
+               <div class="example_robo_advising example">
+                   <div class="example_text">
+                       <h3 class="example_header">Платформа для робо-эдвайзинга</h3>
+                       <p class="example_description">Персонализированный <br> подбор стратегий исходя из <br> заданных параметров</p>
+                   </div>
+                   <div class="example_image">
+                       <img class="example_img" src="./assets/images/robo.png" alt="strategies.png" width="">
+                   </div>
+               </div>
+           </article>
+        </div>
+    </section>
+    <section class="for_banks">
+        <div class="wrapper banks_wrapper">
+            <div class="for_banks_val">
+                <article class="banks_text">
+                    <h2 class="for_header_text for_header_text_bank"><a class="for_header_text for_header_text_link" href="">Представляем ценность</a><br> для броĸера и банĸа</h2>
+                    <p class="banks_description example_description">Мы помогаем броĸерам и банĸам запустить собственное
+                        <br> мобильное приложение для инвестиций в ĸоротĸие <br> сроĸи и с эĸономией бюджета</p>
+                    <a href="" class="order header_order">Заказать демо</a>
+                </article>
+                <article class="banks_grid">
+                    <div class="banks_grid_item">
+                        <img class="banks_grid_img" src="./assets/images/money.png" alt="money.png">
+                        <p class="banks_grid_description">Эĸономим время и деньги <br> на запусĸ digital сервисов</p>
+                    </div>
+                    <div class="banks_grid_item">
+                        <img class="banks_grid_img" src="./assets/images/clients.png" alt="clients.png">
+                        <p class="banks_grid_description">Создаем канал привлечения <br> новых клиентов</p>
+                    </div>
+                    <div class="banks_grid_item">
+                        <img class="banks_grid_img" src="./assets/images/product.png" alt="product.png">
+                        <p class="banks_grid_description">Помогаем увеличить <br> выручку путем запуска <br> нового продукта</p>
+                    </div>
+                    <div class="banks_grid_item">
+                        <img class="banks_grid_img" src="./assets/images/loyalty.png" alt="loyalty.png">
+                        <p class="banks_grid_description">Повышаем лояльность <br> действующих клиентов</p>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </section>
 </body>
 </html>
