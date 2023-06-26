@@ -1,4 +1,8 @@
 ## Тестовое по верстке
-### Макет [ссылка](https://www.figma.com/file/MmE1nhhBdENzovinWEwdDy/Finkit-Test?node-id=1%3A213&mode=dev)
+### Макет [ссылка](https://www.figma.com/file/0iUQ51r7kzOYAhlUGhTQ39/Finkit-Test-(Copy)?node-id=0%3A1&mode=dev)
 
 Предпросмотр по [ссылке](https://fin-kit-test.vercel.app/)
+
+
+Не все иконки переделывались в шрифты с сохранением дизайна. 
+Почти все размеры шрифтов и картинок изменялись в мобильной версии из-за этого написание адаптивной версии заняло больше времени, чем я расчитывал
